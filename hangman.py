@@ -9,7 +9,7 @@ def main():
     turns=15
   else:
     turns=10
-  wordlist = ['rainbow' ,'computer', 'science', 'programming', 'python', 'mathematics', 'player', 'condition', 'reverse', 'water', 'board', 'chess']
+  wordlist = ['rainbow', 'information' ,'computer', 'science', 'programming', 'python', 'mathematics', 'player', 'condition', 'reverse', 'water', 'board', 'chess']
   hidden_word=random.choice(wordlist)
   print("Guess the charecters")
   guesses=''
